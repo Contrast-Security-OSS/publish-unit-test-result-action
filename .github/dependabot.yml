@@ -18,9 +18,13 @@ updates:
 
   - package-ecosystem: "pip"
     directories:
-      - "python/"
-      - "python/test/"
-      - "misc/"
+      - python/
+      - python/test/
+      - misc/
+      - /misc/action/find-workflows
+      - /misc/action/package-downloads
+      - /python
+      - /python/test
     exclude-paths:
       - "python/requirements-3.7.txt"
       - "python/requirements-3.8.txt"
